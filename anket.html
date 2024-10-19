@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Çizgi Film Anketi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Çizgi Film Anketi</h1>
+        <form action="mailto:seninemail@example.com" method="POST" enctype="text/plain">
+            <div class="question">
+                <label for="q1">1. En sevdiğiniz çizgi film karakteri hangisidir?</label>
+                <div class="options">
+                    <label><input type="radio" name="q1" value="Mickey Mouse" required> A) Mickey Mouse</label>
+                    <label><input type="radio" name="q1" value="Bugs Bunny"> B) Bugs Bunny</label>
+                    <label><input type="radio" name="q1" value="SpongeBob"> C) SpongeBob</label>
+                    <label><input type="radio" name="q1" value="Tom ve Jerry"> D) Tom ve Jerry</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <label for="q2">2. Hangi çizgi film türünü en çok seversiniz?</label>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="Komedi" required> A) Komedi</label>
+                    <label><input type="radio" name="q2" value="Macera"> B) Macera</label>
+                    <label><input type="radio" name="q2" value="Bilim Kurgu"> C) Bilim Kurgu</label>
+                    <label><input type="radio" name="q2" value="Fantastik"> D) Fantastik</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <label for="q3">3. En son hangi çizgi filmi izlediniz?</label>
+                <div class="options">
+                    <label><input type="radio" name="q3" value="Rick and Morty" required> A) Rick and Morty</label>
+                    <label><input type="radio" name="q3" value="Adventure Time"> B) Adventure Time</label>
+                    <label><input type="radio" name="q3" value="The Simpsons"> C) The Simpsons</label>
+                    <label><input type="radio" name="q3" value="Family Guy"> D) Family Guy</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <label for="q4">4. Hangi çizgi filmi çocukken en çok izlerdiniz?</label>
+                <div class="options">
+                    <label><input type="radio" name="q4" value="Tom ve Jerry" required> A) Tom ve Jerry</label>
+                    <label><input type="radio" name="q4" value="Scooby-Doo"> B) Scooby-Doo</label>
+                    <label><input type="radio" name="q4" value="Looney Tunes"> C) Looney Tunes</label>
+                    <label><input type="radio" name="q4" value="Pokemon"> D) Pokemon</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <label for="q5">5. En sevdiğiniz çizgi film jenerik müziği hangisidir?</label>
+                <div class="options">
+                    <label><input type="radio" name="q5" value="The Simpsons" required> A) The Simpsons</label>
+                    <label><input type="radio" name="q5" value="SpongeBob"> B) SpongeBob</label>
+                    <label><input type="radio" name="q5" value="DuckTales"> C) DuckTales</label>
+                    <label><input type="radio" name="q5" value="Teenage Mutant Ninja Turtles"> D) Teenage Mutant Ninja Turtles</label>
+                </div>
+            </div>
+
+            <button type="submit">Gönder</button>
+        </form>
+    </div>
+</body>
